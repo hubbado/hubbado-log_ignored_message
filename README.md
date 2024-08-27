@@ -24,7 +24,7 @@ Use it inside an Eventide handler to log when a messge has been ignored
 
 ```ruby
 class SomeHandler
-  dependency :log_ignored, LogIgnoredMessage
+  dependency :log_ignored_ignored, LogIgnoredMessage
 
   def configure
     LogIgnoredMessage.configure(self)
