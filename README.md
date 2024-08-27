@@ -7,7 +7,7 @@ Using evt-log to log that an Eventide Message has been logged
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hubbado-log-ignored-message'
+gem 'hubbado-log_ignored_message'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hubbado-log-ignored-message
+    $ gem install hubbado-log_ignored_message
 
 ## Usage
 
