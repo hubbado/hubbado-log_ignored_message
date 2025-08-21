@@ -23,8 +23,10 @@ Or install it yourself as:
 Use it inside an Eventide handler to log when a messge has been ignored
 
 ```ruby
+require 'log_ignored_message'
+
 class SomeHandler
-  dependency :log_ignored_ignored, LogIgnoredMessage
+  dependency :log_ignored_message, LogIgnoredMessage
 
   def configure
     LogIgnoredMessage.configure(self)
